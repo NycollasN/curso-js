@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+    <title><strong>dom</strong></title>
+    <style>
+    body    {
+        background-color: rgb(220, 230, 240);
+        color: aliceblue;
+        font: normal 18pt arial;
+        }
+    </style>
+
+</head>
+<body><h1>caneco</h1>
+    <p>arromb</p>
+    <p>doido</p>
+    <div id = 'img'>pirulito</div>
+    <script>
+        var corpo = window.document.body
+        var  p1= window.document.getElementsByTagName('p')[0]
+        window.document.write ('esta escrito assim: ' + p1.innerText)
+       
+        p1.style.color='blue'
+        corpo.style.backgroundColor  = 'black'
+        var d = window.document.getElementById('img')
+        d.style.backgroundColor = 'green'
+        d.innerText = 'estou aguardando..'
+        var d= window.document.querySelector('div#img')
+        d.style.backgroundColor = 'blue'
+
+
+        
+        
+    </script>
+    
+</body>
+</html>
